@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Clock, Cocktail, DollarSign, Music } from 'lucide-react';
+import { Clock, Wine, DollarSign, Music } from 'lucide-react';
 
 const FeatureItem = ({ icon: Icon, title, description }: { icon: any, title: string, description: string }) => (
   <div className="flex flex-col items-center p-6 rounded-lg hover:shadow-lg transition-all bg-white bg-opacity-5 backdrop-blur-sm border border-gray-200 border-opacity-10">
@@ -15,7 +15,7 @@ const FeatureItem = ({ icon: Icon, title, description }: { icon: any, title: str
 const AboutSection = () => {
   const features = [
     {
-      icon: Cocktail,
+      icon: Wine,
       title: "Premium Cocktails",
       description: "Handcrafted cocktails using only the finest ingredients and spirits."
     },

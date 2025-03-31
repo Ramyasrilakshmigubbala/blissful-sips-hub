@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Clock, Cocktail, Beer, Utensils } from 'lucide-react';
+import { Clock, Wine, Beer, Utensils } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 interface OfferCardProps {
@@ -53,7 +53,7 @@ const OffersSection = () => {
             className="animate-fade-in"
           />
           <OfferCard 
-            icon={Cocktail} 
+            icon={Wine} 
             title="Cocktails" 
             frontDetails={["1+1 on Classic Cocktails", "50% off Signature Drinks"]} 
             backDetails="Our award-winning mixologists prepare each cocktail with premium spirits and fresh ingredients. Try our seasonal specials curated by our head bartender."
