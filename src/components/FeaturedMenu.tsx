@@ -65,28 +65,28 @@ const FeaturedMenu = () => {
       name: "Classic Negroni",
       price: "$8",
       description: "A perfect balance of gin, vermouth rosso, and Campari",
-      image: "https://images.unsplash.com/photo-1527761939622-933c961abba1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80",
+      image: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80",
       ingredients: ["Gin", "Vermouth Rosso", "Campari", "Orange peel"]
     },
     {
       name: "Espresso Martini",
       price: "$9",
       description: "Vodka-based cocktail with coffee liqueur and freshly brewed espresso",
-      image: "https://images.unsplash.com/photo-1621428171086-0a8b21a4e89f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80",
+      image: "https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=668&q=80",
       ingredients: ["Vodka", "Coffee Liqueur", "Espresso", "Simple syrup"]
     },
     {
       name: "Old Fashioned",
       price: "$10",
       description: "A sophisticated blend of bourbon, bitters, sugar, and citrus",
-      image: "https://images.unsplash.com/photo-1573163126123-6131e87db349?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80",
+      image: "https://images.unsplash.com/photo-1470337458703-46ad1756a187?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80",
       ingredients: ["Bourbon", "Angostura bitters", "Sugar cube", "Orange twist"]
     },
     {
       name: "French 75",
       price: "$11",
       description: "Champagne cocktail with gin, lemon juice, and sugar",
-      image: "https://images.unsplash.com/photo-1560512823-829485b8bf0a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80",
+      image: "https://images.unsplash.com/photo-1502819126416-d387f902f005?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80",
       ingredients: ["Gin", "Champagne", "Lemon juice", "Simple syrup"]
     },
   ];
@@ -96,7 +96,7 @@ const FeaturedMenu = () => {
       name: "Spicy Chicken Wings",
       price: "$12",
       description: "Crispy wings tossed in our signature spicy sauce, served with blue cheese dip",
-      image: "https://images.unsplash.com/photo-1567620832903-9fc6debc209f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      image: "https://images.unsplash.com/photo-1608039755401-742074f0548d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80",
       ingredients: ["Chicken wings", "Hot sauce", "Butter", "Garlic", "Blue cheese"]
     },
     {
@@ -110,14 +110,14 @@ const FeaturedMenu = () => {
       name: "Prosciutto Flatbread",
       price: "$13",
       description: "Stone-baked flatbread with prosciutto, arugula, and parmesan shavings",
-      image: "https://images.unsplash.com/photo-1576096876569-9a54647ee3f7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80",
+      image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80",
       ingredients: ["Prosciutto", "Flatbread dough", "Arugula", "Parmesan", "Olive oil"]
     },
     {
       name: "Lamb Meatballs",
       price: "$10",
       description: "Moroccan-spiced lamb meatballs in rich tomato sauce with mint yogurt",
-      image: "https://images.unsplash.com/photo-1529042410759-befb1204b468?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80",
+      image: "https://images.unsplash.com/photo-1625937285605-232219a9695a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80",
       ingredients: ["Ground lamb", "Moroccan spices", "Tomato sauce", "Mint yogurt", "Fresh herbs"]
     },
   ];
