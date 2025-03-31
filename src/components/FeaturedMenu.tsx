@@ -100,11 +100,11 @@ const FeaturedMenu = () => {
       ingredients: ["Chicken wings", "Hot sauce", "Butter", "Garlic", "Blue cheese"]
     },
     {
-      name: "Beef Sliders",
-      price: "$14",
-      description: "Premium Angus beef mini burgers with caramelized onions and truffle aioli",
-      image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-      ingredients: ["Angus beef", "Brioche buns", "Caramelized onions", "Truffle aioli", "Arugula"]
+      name: "Grilled Chicken Skewers",
+      price: "$13",
+      description: "Tender marinated chicken skewers with aromatic spices and tangy dipping sauce",
+      image: "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80",
+      ingredients: ["Chicken thighs", "Middle Eastern spices", "Lemon", "Yogurt marinade", "Mint sauce"]
     },
     {
       name: "Prosciutto Flatbread",
