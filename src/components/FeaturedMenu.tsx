@@ -91,30 +91,34 @@ const FeaturedMenu = () => {
     },
   ];
 
-  const bites: MenuItem[] = [
+  const nonVegDishes: MenuItem[] = [
     {
-      name: "Truffle Arancini",
-      price: "$7",
-      description: "Crispy risotto balls with truffle and parmesan",
-      image: "https://images.unsplash.com/photo-1548943487-a2e4e43b4853?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+      name: "Spicy Chicken Wings",
+      price: "$12",
+      description: "Crispy wings tossed in our signature spicy sauce, served with blue cheese dip",
+      image: "https://images.unsplash.com/photo-1567620832903-9fc6debc209f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      ingredients: ["Chicken wings", "Hot sauce", "Butter", "Garlic", "Blue cheese"]
     },
     {
-      name: "Tuna Tartare",
-      price: "$9",
-      description: "Fresh tuna with avocado, soy sauce, and crispy wonton",
-      image: "https://images.unsplash.com/photo-1534604973900-c43ab4fdeca0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+      name: "Beef Sliders",
+      price: "$14",
+      description: "Premium Angus beef mini burgers with caramelized onions and truffle aioli",
+      image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      ingredients: ["Angus beef", "Brioche buns", "Caramelized onions", "Truffle aioli", "Arugula"]
     },
     {
-      name: "Spanish Chorizo",
-      price: "$8",
-      description: "Grilled chorizo with honey glaze and herb oil",
-      image: "https://images.unsplash.com/photo-1504544750208-dc0358e63f7f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80"
+      name: "Prosciutto Flatbread",
+      price: "$13",
+      description: "Stone-baked flatbread with prosciutto, arugula, and parmesan shavings",
+      image: "https://images.unsplash.com/photo-1576096876569-9a54647ee3f7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80",
+      ingredients: ["Prosciutto", "Flatbread dough", "Arugula", "Parmesan", "Olive oil"]
     },
     {
-      name: "Patatas Bravas",
-      price: "$6",
-      description: "Crispy potatoes with spicy tomato sauce and aioli",
-      image: "https://images.unsplash.com/photo-1599687267812-35c05ff70ee9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80"
+      name: "Lamb Meatballs",
+      price: "$10",
+      description: "Moroccan-spiced lamb meatballs in rich tomato sauce with mint yogurt",
+      image: "https://images.unsplash.com/photo-1529042410759-befb1204b468?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80",
+      ingredients: ["Ground lamb", "Moroccan spices", "Tomato sauce", "Mint yogurt", "Fresh herbs"]
     },
   ];
   
@@ -124,7 +128,7 @@ const FeaturedMenu = () => {
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="section-title text-white">Featured <span className="text-gold">Menu</span></h2>
           <p className="section-subtitle text-gray-300 max-w-3xl mx-auto">
-            Discover our selection of handcrafted cocktails and gourmet bites available during happy hours.
+            Discover our selection of handcrafted cocktails and premium non-vegetarian dishes available during happy hours.
             Hover over items to see ingredients and details.
           </p>
         </div>
@@ -139,10 +143,10 @@ const FeaturedMenu = () => {
                 Signature Cocktails
               </TabsTrigger>
               <TabsTrigger 
-                value="bites"
+                value="nonveg"
                 className="data-[state=active]:text-gold data-[state=active]:shadow-[0_0_10px_rgba(199,153,75,0.5)]"
               >
-                Gourmet Bites
+                Non-Veg Specialties
               </TabsTrigger>
             </TabsList>
           </div>
@@ -155,10 +159,10 @@ const FeaturedMenu = () => {
             </div>
           </TabsContent>
           
-          <TabsContent value="bites" className="mt-0">
+          <TabsContent value="nonveg" className="mt-0">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-              {bites.map((bite, idx) => (
-                <MenuItemCard key={idx} item={bite} />
+              {nonVegDishes.map((dish, idx) => (
+                <MenuItemCard key={idx} item={dish} />
               ))}
             </div>
           </TabsContent>

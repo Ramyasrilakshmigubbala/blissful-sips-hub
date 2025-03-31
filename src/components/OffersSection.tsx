@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Clock, Wine, Beer, Utensils } from 'lucide-react';
+import { Clock, Wine, Utensils } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 interface OfferCardProps {
@@ -39,12 +39,12 @@ const OffersSection = () => {
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="section-title text-white">Happy Hour <span className="text-gold">Offers</span></h2>
           <p className="section-subtitle text-gray-300 max-w-3xl mx-auto">
-            Join us during our happy hours and enjoy exclusive deals on drinks and appetizers.
+            Join us during our happy hours and enjoy exclusive deals on premium cocktails and non-vegetarian appetizers.
             Hover over the cards to learn more about each offer.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-items-center">
           <OfferCard 
             icon={Clock} 
             title="Timing" 
@@ -60,18 +60,11 @@ const OffersSection = () => {
             className="animate-fade-in delay-100"
           />
           <OfferCard 
-            icon={Beer} 
-            title="Beers" 
-            frontDetails={["Craft beers at 30% off", "5 Brewery Selections"]} 
-            backDetails="We feature a rotating selection of local and international craft beers. Ask your server about our brewery of the month and special pairings."
-            className="animate-fade-in delay-200"
-          />
-          <OfferCard 
             icon={Utensils} 
-            title="Food" 
-            frontDetails={["40% off on Appetizers", "Chef's Special Platters"]} 
-            backDetails="Our kitchen prepares gourmet small plates perfect for sharing. From truffle fries to seared ahi tuna, each bite is crafted to complement your drinks."
-            className="animate-fade-in delay-300"
+            title="Gourmet Bites" 
+            frontDetails={["40% off on Non-Veg Appetizers", "Chef's Special Platters"]} 
+            backDetails="Our kitchen prepares premium non-vegetarian small plates perfect for sharing. From spicy chicken wings to lamb meatballs, each bite is crafted to complement your drinks."
+            className="animate-fade-in delay-200"
           />
         </div>
       </div>
