@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { cn } from '@/lib/utils';
@@ -62,33 +61,33 @@ const MenuItemCard = ({ item }: { item: MenuItem }) => {
 const FeaturedMenu = () => {
   const cocktails: MenuItem[] = [
     {
-      name: "Classic Negroni",
-      price: "$8",
-      description: "A perfect balance of gin, vermouth rosso, and Campari",
-      image: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80",
-      ingredients: ["Gin", "Vermouth Rosso", "Campari", "Orange peel"]
+      name: "Velvet Storm",
+      price: "₹975",
+      description: "Premium vodka with blackberry liqueur, vanilla, and gold dust",
+      image: "./velvet cocktail.jpg",
+      ingredients: ["Premium vodka", "Blackberry liqueur", "Vanilla syrup", "Gold dust"]
     },
     {
-      name: "Espresso Martini",
-      price: "$9",
-      description: "Vodka-based cocktail with coffee liqueur and freshly brewed espresso",
-      image: "https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=668&q=80",
-      ingredients: ["Vodka", "Coffee Liqueur", "Espresso", "Simple syrup"]
+      name: "Emerald Garden",
+      price: "₹895",
+      description: "Gin with cucumber, basil, lime, and elderflower tonic",
+      image: "./emeralad cocktail.jpeg",
+      ingredients: ["Gin", "Fresh cucumber", "Basil leaves", "Lime juice", "Elderflower tonic"]
     },
     {
-      name: "Old Fashioned",
-      price: "$10",
-      description: "A sophisticated blend of bourbon, bitters, sugar, and citrus",
-      image: "https://images.unsplash.com/photo-1470337458703-46ad1756a187?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80",
-      ingredients: ["Bourbon", "Angostura bitters", "Sugar cube", "Orange twist"]
+      name: "Golden Paradise",
+      price: "₹875",
+      description: "Tropical blend of rum, passion fruit, mango, and coconut cream",
+      image: "./golden paradise.webp",
+      ingredients: ["Dark rum", "Passion fruit", "Mango puree", "Coconut cream"]
     },
     {
-      name: "French 75",
-      price: "$11",
-      description: "Champagne cocktail with gin, lemon juice, and sugar",
-      image: "https://images.unsplash.com/photo-1502819126416-d387f902f005?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80",
-      ingredients: ["Gin", "Champagne", "Lemon juice", "Simple syrup"]
-    },
+      name: "Mystic Martini",
+      price: "₹925",
+      description: "Color-changing butterfly pea flower gin with citrus and elderflower",
+      image: "./mistic martini.jpg",
+      ingredients: ["Butterfly pea gin", "Elderflower liqueur", "Citrus", "Edible shimmer"]
+    }
   ];
 
   const nonVegDishes: MenuItem[] = [
@@ -115,11 +114,11 @@ const FeaturedMenu = () => {
     },
     {
       name: "Lamb Meatballs",
-      price: "$10",
+      price: "₹850",
       description: "Moroccan-spiced lamb meatballs in rich tomato sauce with mint yogurt",
-      image: "https://images.unsplash.com/photo-1625937285605-232219a9695a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80",
+      image: "./img.jpg",
       ingredients: ["Ground lamb", "Moroccan spices", "Tomato sauce", "Mint yogurt", "Fresh herbs"]
-    },
+    }
   ];
   
   return (
